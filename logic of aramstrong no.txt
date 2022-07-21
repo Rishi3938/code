@@ -1,0 +1,6 @@
+while(n>0)
+{
+lastdigit=n%10;
+sum=sum+pow(lastdigit,3)
+n=n/10;
+}
